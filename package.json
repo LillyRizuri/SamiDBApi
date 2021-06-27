@@ -1,0 +1,43 @@
+{
+	"name": "samidbapi",
+	"version": "0.0.1",
+	"description": "A node module for SamiDB's image API",
+	"main": "./src/index.js",
+	"files": [
+		"src"
+	],
+	"exports": {
+		"require": "./src/index.js"
+	},
+	"scripts": {
+		"lint": "eslint src",
+		"lint:fix": "eslint src --fix"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LillyRizuri/SamiAPI"
+	},
+	"keywords": [
+		"samidb",
+		"image",
+		"api",
+		"node",
+		"bot"
+	],
+	"author": "Lilly Rizuri",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/LillyRizuri/SamiAPI/issues"
+	},
+	"url": "https://github.com/LillyRizuri/SamiAPI#readme",
+	"dependencies": {
+		"axios": "^0.21.1"
+	},
+	"devDependencies": {
+		"eslint": "^7.29.0"
+	},
+	"engines": {
+		"node": ">=14.0.0",
+		"npm": ">=7.0.0"
+	}
+}
